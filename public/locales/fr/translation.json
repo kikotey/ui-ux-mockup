@@ -1,0 +1,71 @@
+{
+    "register": {
+        "title": "Inscription",
+        "firstname": "Prénom",
+        "lastname": "Nom de famille",
+        "password": "Mot de passe",
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "firstnamePlaceholder": "Entrez votre prénom",
+        "firstnameRequired": "Le prénom est requis",
+        "lastnamePlaceholder": "Entrez votre nom de famille",
+        "lastnameRequired": "Le nom de famille est requis",
+        "passwordPlaceholder": "Créez votre mot de passe",
+        "emailPlaceholder": "Entrez votre adresse e-mail",
+        "passwordRequired": "Le mot de passe est requis",
+        "emailRequired": "L'e-mail est requis",
+        "passwordMinLength": "Le mot de passe doit comporter au moins 8 caractères",
+        "emailInvalid": "L'e-mail n'est pas valide",
+        "submit": "Soumettre",
+        "yourPasswordHas": "Votre mot de passe doit avoir :",
+        "characters": "8 caractères ou plus",
+        "goodStrength": "Bonne force de mot de passe",
+        "passwordStrength": "Force du mot de passe :",
+        "passwordMessage": "Sécurisez votre compte avec un mot de passe unique qui n'inclut pas de noms, de dates et/ou de caractères répétés.",
+        "registerConditions": "En vous inscrivant, vous acceptez nos conditions générales d'utilisation et de vente. Lisez et acceptez les conditions d'utilisation et la politique de confidentialité."
+    },
+    "recovery": {
+        "titleEmail": "Vérifiez votre adresse e-mail",
+        "titlePhone": "Vérifiez votre numéro de téléphone",
+        "messageEmail": "Nous vous avons envoyé un code à six chiffres à {{email}}. Entrez le code ci-dessous pour confirmer votre adresse e-mail.",
+        "messagePhone": "Nous vous avons envoyé un code à six chiffres à {{phone}}. Entrez le code ci-dessous pour confirmer votre numéro de téléphone.",
+        "resend": "Renvoyer un nouveau code"
+    },
+    "sponsorship": {
+        "title": "Parrainage",
+        "email": "E-mail",
+        "phone": "Téléphone",
+        "emailRequired": "L'e-mail est requis",
+        "emailInvalid": "L'e-mail n'est pas valide",
+        "submit": "Soumettre",
+        "continue": "Continuer"
+    },
+    "success": {
+        "changePwdTitle": "Mot de passe modifié !",
+        "changePwdMessage": "Vous avez changé votre mot de passe avec succès.",
+        "recoveryTitle": "Compte vérifié !",
+        "recoveryMessage": "Vous avez vérifié votre compte avec succès."
+    },
+    "createPassword": {
+        "title": "Créez votre mot de passe",
+        "password": "Mot de passe",
+        "confirmPassword": "Confirmez le mot de passe",
+        "confirmPasswordPlaceholder": "Confirmez votre mot de passe",
+        "passwordPlaceholder": "Créez votre mot de passe",
+        "passwordRequired": "Le mot de passe est requis",
+        "passwordMinLength": "Le mot de passe doit comporter au moins 8 caractères",
+        "submit": "Soumettre",
+        "yourPasswordHas": "Votre mot de passe doit avoir :",
+        "characters": "8 caractères ou plus",
+        "goodStrength": "Bonne force de mot de passe",
+        "passwordStrength": "Force du mot de passe :",
+        "passwordMessage": "Sécurisez votre compte avec un mot de passe unique qui n'inclut pas de noms, de dates et/ou de caractères répétés."
+    },
+    "errorFirstNameEmpty": "Le prénom est vide",
+    "errorLastNameEmpty": "Le nom de famille est vide",
+    "errorEmailEmpty": "L'e-mail est vide",
+    "errorEmailServer": "Mauvais domaine d'e-mail",
+    "errorEmailNotValid": "L'e-mail n'est pas valide",
+    "errorPasswordEmpty": "Le mot de passe est vide",
+    "errorPasswordNotValid": "Le mot de passe n'est pas valide"
+}

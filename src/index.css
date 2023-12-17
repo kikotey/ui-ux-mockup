@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    --color-teal-30: #CCE5E6;
+    --color-teal-40: #609EA0;
+    --color-teal-50: #007F82;
+    --color-teal-100: #066569;
+    --color-teal-200: #0A5557;
+    --color-teal-300: #003135;
+
+    --color-gray-50: #FEFEFE;
+    --color-gray-100: #F2F2F2;
+    --color-gray-200: #D9D9D9;
+    --color-gray-300: #BFBFBF;
+    --color-gray-400: #A6A6A6;
+    --color-gray-500: #8C8C8C;
+    --color-gray-600: #737373;
+    --color-gray-700: #595959;
+    --color-gray-800: #404040;
+
+    --color-black-50: #808080;
+    --color-black-100: #616161;
+    --color-black-200: #212121;
+    --color-black-300: #0c0c0c;
+
+    --color-alert-50: #EB3636;
+    --color-alert-100: #E81717;
+
+    --color-yellow-50: #FBBF24;
+
+    --color-blue-50: #2E75A8;
+
+    --color-green-50: #32A210;
+
+}
+
+@font-face {
+    font-family: SPMedium;
+    src: url("./assets/SofiaProMedium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: SPSemiBold;
+    src: url("./assets/SofiaProSemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: SPBold;
+    src: url("./assets/SofiaProBold.ttf") format("truetype");
+}
+
+* {
+    font-family: SPMedium;
+    color: var(--color-black-300);
+    letter-spacing: -0.025em;
+}
+
+.PhoneInput,
+.PhoneInputInput {
+    background-color: var(--color-teal-30);
+    color: var(--color-gray-800)
+}
+
+.PhoneInputInput:focus {
+    outline: none;
+    box-shadow: 0 0 0 0;
+}
+
+.PhoneInputInput:disabled {
+    background-color: var(--color-gray-300);
+}
