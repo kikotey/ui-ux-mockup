@@ -1,0 +1,72 @@
+{
+    "register": {
+        "title": "Registration",
+        "firstname": "Firstname",
+        "lastname": "Lastname",
+        "password": "Password",
+        "email": "Email",
+        "phone": "Phone",
+        "firstnamePlaceholder": "Enter your firstname",
+        "lastnamePlaceholder": "Enter your lastname",
+        "passwordPlaceholder": "Create your password",
+        "emailPlaceholder": "Enter your email address",
+        "usernameRequired": "Username is required",
+        "passwordRequired": "Password is required",
+        "emailRequired": "Email is required",
+        "usernameMinLength": "Username must be at least 2 characters long",
+        "passwordMinLength": "Password must be at least 8 characters long",
+        "emailInvalid": "Email is invalid",
+        "emailExisted": "Email is existed",
+        "submit": "Submit",
+        "yourPasswordHas": "Your password must have:",
+        "characters": "8 or more characters",
+        "goodStrength": "Good password strength",
+        "passwordStrength": "Password strength:",
+        "passwordMessage": "Secure your account with a unique password that doesn’t include names, dates and/or repeating characters.",
+        "registerConditions": "By registering, you accept our general conditions of use and sale. Read and agree to the Terms of Service and Privacy Policy."
+    },
+    "recovery": {
+        "titleEmail": "Verify your email address",
+        "titlePhone": "Verify your phone number",
+        "messageEmail": "We emailed you a six-digit code to {{email}}. Enter the code below to confirm your email address.",
+        "messagePhone": "We sent you a six-digit code to {{phone}}. Enter the code below to confirm your phone number.",
+        "resend": "Resend a new code"
+    },
+    "sponsorship": {
+        "title": "Sponsorship",
+        "email": "Email",
+        "phone": "Phone",
+        "emailRequired": "Email is required",
+        "emailInvalid": "Email is invalid",
+        "submit": "Submit",
+        "continue": "Continue"
+    },
+    "success": {
+        "changePwdTitle": "Password changed!",
+        "changePwdMessage": "You have successfully changed your password.",
+        "recoveryTitle": "Account verified!",
+        "recoveryMessage": "You have successfully verified your account."
+    },
+    "createPassword": {
+        "title": "Create your password",
+        "password": "Password",
+        "confirmPassword": "Confirm Password",
+        "confirmPasswordPlaceholder": "Confirm your password",
+        "passwordPlaceholder": "Create your password",
+        "passwordRequired": "Password is required",
+        "passwordMinLength": "Password must be at least 8 characters long",
+        "submit": "Submit",
+        "yourPasswordHas": "Your password must have:",
+        "characters": "8 or more characters",
+        "goodStrength": "Good password strength",
+        "passwordStrength": "Password strength:",
+        "passwordMessage": "Secure your account with a unique password that doesn’t include names, dates and/or repeating characters."
+    },
+    "errorFirstNameEmpty": "Firstname is empty",
+    "errorLastNameEmpty": "Lastname is empty",
+    "errorEmailEmpty": "Email is empty",
+    "errorEmailServer": "Wrong email domain name",
+    "errorEmailNotValid": "Email is not valid",
+    "errorPasswordEmpty": "Password is empty",
+    "errorPasswordNotValid": "Password is not valid"
+}
